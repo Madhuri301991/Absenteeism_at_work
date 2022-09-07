@@ -3,5 +3,6 @@ The project will address Absenteeism at a company during work time. It will work
 Description:
 1] Data_preprocessing_absenteeism notebook does preprocessing of the dataset 'Absenteeism_data.csv'. 
 2] ML_topredict_absenteeism notebook trains logistic regression model on the 'Absenteeism_preprocessed.csv'
-3] Absenteeism_Integration notebook tests the absenteeism_module python file on new test data of 'Absenteeisn_new_data.csv' and inserts the records in the MySql.
+3] Absenteeism_Integration notebook tests the absenteeism_module python file on new test data of 'Absenteeisn_new_data.csv' and the  predicated output for the new test data is stored in MySql.
 4] Dataset results are also visualized in Tableau 
+Hint- Make sure absenteeism_module is a python file, else project wont work
