@@ -1,0 +1,29 @@
+DROP DATABASE IF EXISTS predicated_outputs;
+
+CREATE DATABASE IF NOT EXISTS predicated_outputs;
+
+USE predicated_outputs;
+
+DROP TABLE IF EXISTS predicated_outputs;
+
+CREATE TABLE predicated_outputs
+(
+reason_1 BIT NOT NULL,
+reason_2 BIT NOT NULL,
+reason_3 BIT NOT NULL,
+reason_4 BIT NOT NULL,
+month_value INT NOT NULL,
+transportation_expense INT NOT NULL,
+age INT NOT NULL,
+body_mass_index INT NOT NULL,
+education BIT NOT NULL,
+children INT NOT NULL,
+pets INT NOT NULL,
+probability FLOAT NOT NULL,
+prediction BIT NOT NULL
+);
+
+SELECT * FROM predicated_outputs;
+
+#comment
+-- click on 'Export record to an external file' on the displayed output records section and save it in the folder as 'Absenteeism_predications' as csv file
