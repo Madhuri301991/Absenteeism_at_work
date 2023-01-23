@@ -2,6 +2,7 @@
 - The project will address Absenteeism at a company during work time. 
 - It will work on predicting Absenteeism from work, whether or not an employee will be absent for a specific number of hours on a work day. 
 - It will explore whether a person presenting certain characteristics is expected to be away from work at some point in time or not.
+- Pulled data from MySql & .csv files that stored 700 records. 
 -----------------------------------------------------------------------------------------------------------
 - 1] Data_preprocessing_absenteeism notebook does preprocessing of the dataset 'Absenteeism_data.csv' and generates new preprocessed dataset 'Absenteeism_preprocessed.csv'
 - 2] ML_topredict_absenteeism notebook contain code to train logistic regression model on the 'Absenteeism_preprocessed.csv'.
